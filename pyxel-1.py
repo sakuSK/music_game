@@ -46,7 +46,7 @@ D_point_D=0
 D_point_J=0
 D_point_K=0
 point_2=0
-combo=0
+
 combo_2=0
 ys = [y,y_2,yy,yy_2,yyy,yyy_2,yyyy,yyyy_2]
 
@@ -68,7 +68,7 @@ class App:
         pyxel.rect(0, 0, WIDTH, HEIGHT_SCORE, COL_SCORE_BACKGROUND)
         pyxel.text(1, 1, point_2, COL_SCORE)
         combo_2 = f"    S      D      J      K"
-        pyxel.text(1, 110, combo_2, COL_SCORE)
+        pyxel.text(1, 110, combo_2, COL_DEATH)
     def update(self):
         global y,y_2,y_3,yy,yy_2,yy_3,yyy,yyy_2,yyy_3,yyyy,yyyy_2,yyyy_3,timer,ys,combo
         y+=3

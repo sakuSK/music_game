@@ -6,7 +6,7 @@ Point = namedtuple("Point", ["x", "y"])  # Convenience class for coordinates
 COL_BACKGROUND = 3
 COL_BODY = 11
 COL_HEAD = 7
-COL_DEATH = 8
+COL_DEATH = 7
 COL_APPLE = 8
 
 TEXT_DEATH = ["GAME OVER", "(Q)UIT", "(R)ESTART"]
